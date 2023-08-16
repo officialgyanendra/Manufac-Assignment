@@ -1,4 +1,4 @@
-![Screenshot 2023-08-16 at 11 32 50 PM](https://github.com/officialgyanendra/Manufac-Assignment/assets/38563011/cdd18099-e532-464f-be44-e9bdd7235a3c)1. Cloning the project 
+1. Cloning the project 
 
 # For downloading the dependencies you need to run bellow command
 
