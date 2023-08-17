@@ -3,10 +3,10 @@ import { processData } from '../logic/logic';
 
 export default function GammaTable(props) {
     const [data] = useState(props.data);
-    
+
     // Fetching the data from logic.js for Gamma mean, median and mode
 
-    const [alchohalType, , , ,gammaMeanArrayList, gammaMedianArrayList, gammaModeArraylist] = processData(data);
+    const [alchohalType, , , , gammaMeanArrayList, gammaMedianArrayList, gammaModeArraylist] = processData(data);
     return (
         <>
             <h1>Gamma Table</h1>
@@ -36,7 +36,7 @@ export default function GammaTable(props) {
                     <tr>
                         <td>Gamma Mode</td>
                         {gammaModeArraylist.map((data, index) => {
-                            return <td key={index}>{data.toFixed(3)}</td>
+                            return <td key={index}>{data}</td>
                         })
 
                         }

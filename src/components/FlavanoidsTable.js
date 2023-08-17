@@ -6,7 +6,7 @@ export default function FlavanoidsTable(props) {
     //Fetching the data from logic.js for flavanoids mean, median and mode
 
     const [alchohalType, flavanoidsMeanArrList, flavanoidsMedianArrayList, modeArraylist] = processData(data);
-    
+
     return (
         <>
             <h1>Flavanoids Table</h1>
@@ -36,7 +36,7 @@ export default function FlavanoidsTable(props) {
                     <tr>
                         <td>Flavanoids Mode</td>
                         {modeArraylist.map((data, index) => {
-                            return <td key={index}>{data.toFixed(3)}</td>
+                            return <td key={index}>{data}</td>
                         })
 
                         }
