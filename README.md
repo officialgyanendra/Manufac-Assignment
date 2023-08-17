@@ -14,4 +14,4 @@
 
 # Also providing the screenshot of the tables
 
-![Screenshot 2023-08-16 at 11 32 50 PM](https://github.com/officialgyanendra/Manufac-Assignment/assets/38563011/38434198-5dcc-4213-8985-b5d3fa94db00)
+![Screenshot 2023-08-17 at 5 27 47 PM](https://github.com/officialgyanendra/Manufac-Assignment/assets/38563011/c2e3c97f-a7d8-4efd-b631-a258bbde6371)
